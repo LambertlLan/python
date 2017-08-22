@@ -31,10 +31,13 @@
 #
 # print_add(1, 2, 3, 4, 5, 6, 7, 8, 9)
 
-def print_info(*args, **kwargs):
+def print_info(sex="male",*args, **kwargs):
     print(args)  # ('alex', 'lambert')  'alex', 'lambert' 转为元组
     print(kwargs)  # {'name': 'alex', 'age': 25}  name="alex", age=25 转为键值对
     for i in kwargs:
-        print(':'.join([i,str(kwargs[i])]))
+        print('%s:%s' % (i, kwargs[i]))
 
-print_info('alex', 'lambert', name="alex", age=25)
+
+print_info('alex', 'lambert', name="alex", age=25)  # 相同的必须在一起，顺序必须相同
+# print_info('alex', name="alex", 'lambert', age=25) # 这种方式会报错
+# 关于不定长参数的位置，args放在左边，kwargs放在右边，如果有默认参数，默认参数放最左边
