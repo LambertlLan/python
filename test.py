@@ -1,10 +1,16 @@
-count = 10
+import time
 
 
-def outer():
-    count = 5
-    print(count)
+def foo():
+    print('foo')
 
 
-outer()
-print(count)
+def show_time(func):
+    start = time.time()
+    func()
+    time.sleep(2)
+    end = time.time()
+    print('time:%s' % (end - start))
+
+
+foo = show_time(foo)
