@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f787c61-2b8a-48ef-94e5-a35f7859a208" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day17(列表生成式、生成器、迭代器、time模块、random模块)/列表生成式.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -675,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1503628853120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="17天列表生成器">
+      <created>1504002006969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504002006969</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,7 +747,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="函数的参数完" />
     <MESSAGE value="装饰器、闭包完" />
-    <option name="LAST_COMMIT_MESSAGE" value="装饰器、闭包完" />
+    <MESSAGE value="17天列表生成器" />
+    <option name="LAST_COMMIT_MESSAGE" value="17天列表生成器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
