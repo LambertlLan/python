@@ -21,7 +21,6 @@ def va_code():
         al = chr(random.randrange(65, 91))
         num = str(random.randrange(10))
         code += random.choice([al, num])
-
     print(code)
 
 
