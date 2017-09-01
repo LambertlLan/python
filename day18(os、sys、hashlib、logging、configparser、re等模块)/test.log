@@ -1,0 +1,16 @@
+Fri,01 Sep 2017 14:40:40 logging_module.py[line:15] DEBUG debug message
+Fri,01 Sep 2017 14:40:40 logging_module.py[line:16] INFO info message
+Fri,01 Sep 2017 14:40:40 logging_module.py[line:17] WARNING warning message
+Fri,01 Sep 2017 14:40:40 logging_module.py[line:18] ERROR error message
+Fri,01 Sep 2017 14:40:40 logging_module.py[line:19] CRITICAL critical message
+Fri,01 09 2017 14:43:02 logging_module.py[line:15] DEBUG debug message
+Fri,01 09 2017 14:43:02 logging_module.py[line:16] INFO info message
+Fri,01 09 2017 14:43:02 logging_module.py[line:17] WARNING warning message
+Fri,01 09 2017 14:43:02 logging_module.py[line:18] ERROR error message
+Fri,01 09 2017 14:43:02 logging_module.py[line:19] CRITICAL critical message
+2017-09-01 15:09:42,782 logging_module.py[line:39] DEBUG 123
+2017-09-01 15:09:52,743 logging_module.py[line:39] DEBUG 123
+Fri,01 Sep 2017 15:14:23 logging_module.py[line:40] DEBUG 123
+2017-09-01 15:19:02,934 logging_module.py[line:40] DEBUG 123
+Fri,01 Sep 2017 15:24:10 logging_module.py[line:40] WARNING 123
+Fri,01 Sep 2017 15:24:21 logging_module.py[line:40] WARNING 123
