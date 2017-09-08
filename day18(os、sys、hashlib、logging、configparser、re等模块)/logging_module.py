@@ -21,12 +21,13 @@ import logging
 
 # logger
 logger = logging.getLogger()
+# logger = logging.getLogger(name) 加入文件名，不然会返回root，在所以文件记录
 # 创建一个hanlder,用于写入日志文件
 fh = logging.FileHandler('test.log')
 # 创建一个handler，用于输出控制台
 ch = logging.StreamHandler()
 # 创建格式化对象
-formater = logging.Formatter('%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s')
+formater = logging.Formatter('%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s', encoding="utf8")
 formater.datefmt = "%a,%d %b %Y %H:%M:%S"
 # 给hanlder设置格式化对象
 fh.setFormatter(formater)
@@ -37,4 +38,4 @@ logger.addHandler(ch)
 # logger设置日志等级低于info等级不会记录
 logger.setLevel(logging.INFO)
 
-logger.debug('123')
+logger.info('5555555555')
