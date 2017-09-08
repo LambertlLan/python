@@ -38,4 +38,5 @@ logger.addHandler(ch)
 # logger设置日志等级低于info等级不会记录
 logger.setLevel(logging.INFO)
 
+
 logger.info('5555555555')
