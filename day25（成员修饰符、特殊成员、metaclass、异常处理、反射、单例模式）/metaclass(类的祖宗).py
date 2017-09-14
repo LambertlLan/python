@@ -18,6 +18,7 @@ class MyType(type):
     def __call__(self, *args, **kwargs):
         r = self.__new__()
 
+
 # Foo = type('Foo', (object), {'func': f1}) 等于下面的class Foo
 class Foo(object, metaclass=MyType):  # 类默认由type创建，修改metaclass指定有Mytype 创建
     def __init__(self):
