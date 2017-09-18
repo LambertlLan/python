@@ -6,5 +6,5 @@ dic = {'tung': 'tung'}
 f = open('test.json', 'w')
 data = json.dumps(dic)
 f.write(data)
-# data = json.dump(dic,f)  # 等于data = json.dumps(dic) 和 f.write(data)
+data = json.dump(dic,f)  # 等于data = json.dumps(dic) 和 f.write(data)
 f.close()
