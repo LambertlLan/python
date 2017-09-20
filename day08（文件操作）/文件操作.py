@@ -1,6 +1,6 @@
 # __author: Lambert
 # __date: 2017/8/18 15:37
-file_pom = open('poem.txt', 'r', encoding='gbk')  # encoding为文件编码格式,‘r’为read模式
+file_pom = open('poem.txt', 'a', encoding='utf8')  # encoding为文件编码格式,‘r’为read模式
 # data = file_pom.read()
 # print(data)
 # file_pom.close()
@@ -8,3 +8,4 @@ file_pom = open('poem.txt', 'r', encoding='gbk')  # encoding为文件编码格�
 # write_pom.write('hello world')
 # write_pom.close()
 # file_pom.readlines()不常用，文件太大占用内存太多
+file_pom.write('哈哈哈啊')
