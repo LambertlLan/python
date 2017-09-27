@@ -23,7 +23,7 @@ inp = ('pymysql', 20, 1)
 # 删除数据
 # r = cursor.execute('delete from userinfo where nid=%s', (11,))
 # 查看数据(连表查询)
-# r = cursor.execute('select * from userinfo JOIN department on userinfo.par_nid = department.nid')
+# r = cursor.execute('select * from userinfo left JOIN department on userinfo.par_nid = department.nid')
 # 查看数据(修改字段名)
 # r = cursor.execute('select nid as id,name as f from userinfo')  # 将nid字段改为id，那么字段改为f
 # result = cursor.fetchall()
